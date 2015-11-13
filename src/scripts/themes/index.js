@@ -6,12 +6,14 @@ var web = require('./ft-web');
 var video = require('./ft-video');
 var print = require('./ft-print');
 var fta_web = require('./fta-web');
+var ic_web = require('./ic-web');
 
 var themes = {
     'ft-web': web.theme,
     'ft-video': video.theme,
     'ft-print': print.theme,
     'fta-web': fta_web.theme,
+    'ic-web': ic_web.theme,
     check: checkAttributes,
     createDefinitions: createDefinitions
 };
@@ -19,7 +21,8 @@ var definitions = {
     'ft-web': web.defs,
     'ft-video': video.defs,
     'ft-print': print.defs,
-    'fta-web': fta_web.defs
+    'fta-web': fta_web.defs,
+    'ic-web': ic_web.defs
 };
 
 function createDefinitions(g, model) {
