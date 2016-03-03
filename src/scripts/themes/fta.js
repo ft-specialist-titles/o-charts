@@ -1,14 +1,14 @@
 var colours = {
     line: [
-        '#ff9246'
+        '#d37a6c', '#f7b47f', '#a79483', '#f3dda3', '#b6b38a', '#8caead', '#83b6c9', '#898190', '#a97e87', '#cfc5c3'
     ],
     column: [
-        '#ff9246'
+        '#d37a6c', '#f7b47f', '#a79483', '#f3dda3', '#b6b38a', '#8caead', '#83b6c9', '#898190', '#a97e87', '#cfc5c3'
     ],
     bar: [
-        '#ff9246'
+        '#d37a6c', '#f7b47f', '#a79483', '#f3dda3', '#b6b38a', '#8caead', '#83b6c9', '#898190', '#a97e87', '#cfc5c3'
     ],
-    accent: '#ff9246'
+    accent: '#d37a6c'
 };
 
 // SPECIAL 'non-svg' ATTRIBUTES:
