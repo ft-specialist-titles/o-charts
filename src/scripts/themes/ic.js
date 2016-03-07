@@ -67,21 +67,21 @@ module.exports.theme = [
     //text
     {   'id': 'chart-title',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 18,
             'fill': 'rgba(0, 0, 0, 0.8)'
         }
     },
     {   'id': 'chart-subtitle',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'fill': 'rgba(0, 0, 0, 0.5)'
         }
     },
     {   'id': 'chart-source',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 10,
             'line-height': 12,
             'fill': 'rgba(0, 0, 0, 0.5)'
@@ -89,7 +89,7 @@ module.exports.theme = [
     },
     {   'id': 'chart-footnote',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'line-height': 15,
             'fill': 'rgba(0, 0, 0, 0.5)'
@@ -97,7 +97,7 @@ module.exports.theme = [
     },
     {   'id': 'key',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'line-height': 16,
             'fill': 'rgba(0, 0, 0, 0.5)',
@@ -128,7 +128,7 @@ module.exports.theme = [
     {   'id': 'axis-text',
         'attributes': {
             'font-size': 12,
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'stroke': 'none',
             'fill': '#757470'
         }
