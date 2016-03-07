@@ -3,7 +3,8 @@ var fs = require('fs');
 var dataURI = {
     BentonSans: fs.readFileSync(__dirname + '/BentonSans.txt', 'utf8').trim(),
     MetricWeb: fs.readFileSync(__dirname + '/MetricWeb.txt', 'utf8').trim(),
-    MetricWebSemiBold: fs.readFileSync(__dirname + '/MetricWebSemiBold.txt', 'utf8').trim()
+    MetricWebSemiBold: fs.readFileSync(__dirname + '/MetricWebSemiBold.txt', 'utf8').trim(),
+    MetaSerif: fs.readFileSync(__dirname + '/MetaSerif.txt', 'utf8').trim()
 };
 
 function svgStyleElement(stylesheet) {
