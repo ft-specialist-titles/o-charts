@@ -2,25 +2,16 @@
 // we need a simple way to attach styles as attributes if necessary,
 // so, heres a list of attributes and the selectors to which they should be applied
 var d3 = require('d3');
-var web = require('./ft-web');
-var video = require('./ft-video');
-var print = require('./ft-print');
 var fta = require('./fta');
 var ic = require('./ic');
 
 var themes = {
-    'ft-web': web.theme,
-    'ft-video': video.theme,
-    'ft-print': print.theme,
     'fta': fta.theme,
     'ic': ic.theme,
     check: checkAttributes,
     createDefinitions: createDefinitions
 };
 var definitions = {
-    'ft-web': web.defs,
-    'ft-video': video.defs,
-    'ft-print': print.defs,
     'fta': fta.defs,
     'ic': ic.defs
 };
