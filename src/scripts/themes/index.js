@@ -32,7 +32,7 @@ function createDefinitions(g, model) {
 }
 
 function checkAttributes(theme, selector) {
-    return themes[theme || 'ft-web'].filter(function (style, i) {
+    return themes[theme || 'ic'].filter(function (style, i) {
         return (style.id == selector);
     })[0] || {attributes:{}};//return only a single object by id
 }
