@@ -1,14 +1,14 @@
 var colours = {
     line: [
-        '#af516c', '#ecafaf', '#d7706c', '#76acb8', '#7fd8f5', '#3d7ab3', '#b8b1a9'
+        '#c10001', '#850001', '#000000', '#dc6465', '#747474'
     ],
     column: [
-        '#bb6d82', '#ecafaf', '#d7706c', '#cb9f8c', '#b07979', '#ccc2c2', '#8f7d95', '#b8b1a9'
+        '#c10001', '#850001', '#000000', '#dc6465', '#747474'
     ],
     bar: [
-        '#bb6d82', '#ecafaf', '#d7706c', '#cb9f8c', '#b07979', '#ccc2c2', '#8f7d95', '#b8b1a9'
+        '#c10001', '#850001', '#000000', '#dc6465', '#747474'
     ],
-    accent: '#9e2f50'
+    accent: '#c10001'
 };
 
 // SPECIAL 'non-svg' ATTRIBUTES:
@@ -30,7 +30,7 @@ module.exports.theme = [
         'id': 'svg',
         'selector': 'svg',
         'attributes': {
-            'background': '#fff1e0'
+            'background': '#ffffff'
         }
     },
     //lines
@@ -67,21 +67,21 @@ module.exports.theme = [
     //text
     {   'id': 'chart-title',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 18,
             'fill': 'rgba(0, 0, 0, 0.8)'
         }
     },
     {   'id': 'chart-subtitle',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'fill': 'rgba(0, 0, 0, 0.5)'
         }
     },
     {   'id': 'chart-source',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 10,
             'line-height': 12,
             'fill': 'rgba(0, 0, 0, 0.5)'
@@ -89,7 +89,7 @@ module.exports.theme = [
     },
     {   'id': 'chart-footnote',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'line-height': 15,
             'fill': 'rgba(0, 0, 0, 0.5)'
@@ -97,7 +97,7 @@ module.exports.theme = [
     },
     {   'id': 'key',
         'attributes': {
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'font-size': 12,
             'line-height': 16,
             'fill': 'rgba(0, 0, 0, 0.5)',
@@ -128,7 +128,7 @@ module.exports.theme = [
     {   'id': 'axis-text',
         'attributes': {
             'font-size': 12,
-            'font-family': 'BentonSans, sans-serif',
+            'font-family': 'MetaSerif, Georgia',
             'stroke': 'none',
             'fill': '#757470'
         }
@@ -138,6 +138,11 @@ module.exports.theme = [
         'attributes': {
             'font-size': 10,
             'fill': '#757470'
+        }
+    },
+    {   'id': 'chart-logo',
+        'attributes': {
+            'display': 'none'
         }
     }
 ];

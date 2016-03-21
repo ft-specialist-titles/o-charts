@@ -46,9 +46,9 @@ d3.select(svg)
 
 ## Themes
 
-Charts (and chart components) can now be 'themed'. Currently `ft-web` (default), `ft-video` and `ft-print`.  Set this by adding the following to the data config object:
+Charts (and chart components) can now be 'themed'. Currently `ic` (default) and `fta`.  Set this by adding the following to the data config object:
 
-`theme: 'ft-web'`
+`theme: 'ic'`
 
 
 ##date axis
@@ -61,6 +61,6 @@ For drawing a value axis in the ft style (horizontal or vertical)
 
 ## Licence
 
-Copyright (c) 2015 Financial Times Ltd. All rights reserved.
+Copyright (c) 2016 Financial Times Ltd. All rights reserved.
 
 This software is published under the [MIT licence](http://opensource.org/licenses/MIT).
